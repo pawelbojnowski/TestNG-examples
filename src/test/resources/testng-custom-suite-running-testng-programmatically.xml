@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="running_testing_programmatically_suite">
+    <test name="runningTestingProgrammaticallyTest">
+        <classes>
+            <class name="pl.pb.testng.examples.runningtestngprogrammatically.TestExample"/>
+        </classes>
+    </test>
+</suite>

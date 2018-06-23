@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="parameter_suite">
+    <test name="ParameterTest">
+        <parameter name="firstName" value="example firts name value"/>
+        <classes>
+            <class name="pl.pb.testng.examples.parameters.TestParametersFromCustomSuite"/>
+        </classes>
+    </test>
+</suite>

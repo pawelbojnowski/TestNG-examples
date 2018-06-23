@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="hook_suite">
+
+    <listeners>
+        <listener class-name="pl.pb.testng.examples.overridingtestmethods.CustomHook"/>
+    </listeners>
+
+    <test name="HookTest">
+        <classes>
+            <class name="pl.pb.testng.examples.overridingtestmethods.TestCustomHookRunFromXML"/>
+        </classes>
+    </test>
+</suite>

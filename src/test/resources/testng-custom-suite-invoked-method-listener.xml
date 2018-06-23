@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="invoked_method_listener_suite">
+
+    <listeners>
+        <listener class-name="pl.pb.testng.examples.listeningmethodinvocations.CustomInvokedMethodListener"/>
+    </listeners>
+
+    <test name="InvokedMethodListenerTest">
+        <classes>
+            <class name="pl.pb.testng.examples.listeningmethodinvocations.TestCustomInvokedMethodListenerRunFromXML"/>
+        </classes>
+    </test>
+</suite>

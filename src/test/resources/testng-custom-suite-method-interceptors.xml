@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="method_interceptors_suite">
+
+    <listeners>
+        <listener class-name="pl.pb.testng.examples.methodinterceptors.CustomMethodInterceptors"/>
+    </listeners>
+
+    <test name="MethodInterceptorsTest">
+        <classes>
+            <class name="pl.pb.testng.examples.methodinterceptors.TestCustomMethodInterceptors"/>
+        </classes>
+    </test>
+</suite>

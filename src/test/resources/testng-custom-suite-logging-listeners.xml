@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="custom_test_listener_adapter_suite">
+
+    <listeners>
+        <listener class-name="pl.pb.testng.examples.logginglisteners.CustomTestListenerAdapter"/>
+    </listeners>
+
+    <test name="TestListenerAdapterTest">
+        <classes>
+            <class name="pl.pb.testng.examples.logginglisteners.TestTestListenerAdapterRunFromXML"/>
+        </classes>
+    </test>
+</suite>

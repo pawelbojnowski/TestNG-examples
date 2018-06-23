@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="bean_shell_suite">
+    <test name="BeanShellTest">
+        <method-selectors>
+            <method-selector>
+                <script language="beanshell"><![CDATA[
+         groups.containsKey("BeanShellGroups")
+       ]]></script>
+            </method-selector>
+        </method-selectors>
+        <classes>
+            <class name="pl.pb.testng.examples.beanshell.TestBeanShell"/>
+        </classes>
+    </test>
+
+</suite>

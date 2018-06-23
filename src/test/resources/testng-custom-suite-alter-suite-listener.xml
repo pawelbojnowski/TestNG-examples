@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="altering_listener_suite">
+
+    <listeners>
+        <listener class-name="pl.pb.testng.examples.alteringsuites.CustomAlterSuiteListener"/>
+    </listeners>
+
+    <test name="AlteringListenerTest">
+        <classes>
+            <class name="pl.pb.testng.examples.alteringsuites.TestAlterSuiteListenerRunFromXML"/>
+        </classes>
+    </test>
+</suite>
