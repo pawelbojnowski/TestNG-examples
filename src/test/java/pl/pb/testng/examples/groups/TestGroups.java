@@ -10,7 +10,7 @@ public class TestGroups {
 
     /**
      * Run this test with testng-custom-suite-groups.xml
-     * should rin only:
+     * should run only:
      * beforeTestGroupOne()
      * testGroupOne()
      * afterTestGroupOne()
